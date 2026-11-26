@@ -24,15 +24,15 @@ OBESITY_NUMERIC = [
     "Age", "Height", "Weight", "FCVC", "NCP", "CH2O", "FAF", "TUE",
 ]
 OBESITY_NAMES = {
-    0: "Corpulence normale",
+    0: "Surpoids",
     1: "Obésité classe II",
-    2: "Surpoids",
+    2: "Corpulence normale",
     3: "Obésité classe III",
 }
 OBESITY_INTERPRETATIONS = {
-    0: "IMC moyen d'environ 20,42 — corpulence normale.",
+    2: "IMC moyen d'environ 20,42 — corpulence normale.",
     1: "IMC moyen d'environ 36,52 — obésité de classe II.",
-    2: "IMC moyen d'environ 28,11 — situation de surpoids.",
+    0: "IMC moyen d'environ 28,11 — situation de surpoids.",
     3: "IMC moyen d'environ 40,89 — obésité de classe III.",
 }
 
